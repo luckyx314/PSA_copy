@@ -1,3 +1,111 @@
 #snapshots {
-    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+#snapshots .box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+#snapshots .box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#snapshots .box h3,
+#snapshots .box p,
+#snapshots .box span {
+    color: white;
+}
+
+#snapshots .innerdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+#snapshots .circle-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#snapshots .circle-container {
+    background-image: url(../images/prod/circlesb.png);
+    width: 70%;
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#snapshots .circle {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+#snapshots .circle:nth-child(1) {
+    height: 200px;
+    width: 200px;
+    margin-left: 250px;
+    margin-bottom: -100px;
+    background-color: #195afe;
+}
+#snapshots .circle:nth-child(2) {
+    height: 150px;
+    width: 150px;
+    margin-top: -150px;
+    background-color: #dce2f8;
+    color: black;
+}
+
+#snapshots .circle:nth-child(3) {
+    margin-left: 150px;
+    background-color: #9bb5fa;
+    color: black;
+}
+
+#snapshots .circle:nth-child(4) {
+    background-color: #9bb5fa;
+    width: 150px;
+    height: 150px;
+    color: black;
+}
+#snapshots .circle:nth-child(5) {
+    margin-left: 300px;
+    margin-top: -160px;
+    background-color: #7096fb;
+}
+
+#snapshots .box:nth-child(1) {
+    background: #42d7b4;
+}
+#snapshots .box:nth-child(2) {
+    background: #feb72b;
+}
+#snapshots .box:nth-child(3) {
+    background: #c24dfc;
+}
+#snapshots .box:nth-child(4) {
+    background: #fc3771;
+}
+#snapshots .box:nth-child(5) {
+    background: #1dcdf6;
+}
+#snapshots .box:nth-child(6) {
+    background: #195afe;
 }
