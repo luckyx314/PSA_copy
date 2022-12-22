@@ -33,6 +33,7 @@ nav#header-nav {
     align-items: center;
     padding-right: 100px;
     padding-left: 15px;
+    z-index: 101;
 }
 
 nav#sidebar {
@@ -40,10 +41,15 @@ nav#sidebar {
     justify-content: center;
     top: var(--nav-height);
     left: 0;
-    bottom: 0;
-    width: 100px;
+    height: 100%;
+    width: 110px;
     display: flex;
     background: white;
+    z-index: 99;
+}
+
+nav#sidebar .active {
+    color: #64788c !important;
 }
 
 nav#sidebar ul {
@@ -66,6 +72,10 @@ nav#sidebar ul li .icon {
 
 nav#sidebar ul li .icon {
     font-size: 1.5rem;
+}
+
+nav#sidebar ul li p {
+    font-size: 0.9rem;
 }
 
 nav ul {
@@ -95,4 +105,6 @@ footer {
 
 footer {
     background-color: #092540;
+    position: relative;
+    z-index: 100;
 }
