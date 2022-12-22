@@ -1,0 +1,100 @@
+#inflation .div1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding-top: var(--section-padding-top);
+}
+
+#inflation .title p {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#inflation table {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+#inflation table tr td,
+#inflation table tr th {
+    padding: 5px 20px;
+}
+
+#inflation .bar-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#inflation .bar-wrapper .bar-container {
+    height: 100%;
+    text-align: center;
+}
+
+#inflation .bar {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100px;
+    height: 100%;
+}
+
+#inflation .bar-container {
+    margin-right: 10px;
+}
+#inflation .bar-container:last-child {
+    margin-right: 0 !important;
+}
+
+#inflation .bar .bar-len {
+    height: 60%;
+    width: 100px;
+}
+
+#inflation .bar1 {
+    height: 61% !important;
+    background-color: #DCE2F8;
+}
+#inflation .bar2 {
+    height: 64% !important;
+    background-color: #9BB5FA;
+}
+#inflation .bar3 {
+    height: 63% !important;
+    background-color: #7096FB;
+}
+#inflation .bar4 {
+    height: 69% !important;
+    background-color: #4478FD;
+}
+#inflation .bar5 {
+    height: 77% !important;
+    background-color: #4478FD;
+}
+#inflation .bar6 {
+    height: 80% !important;
+    background-color: #195AFD;
+}
+
+
+#inflation .addinfo {
+    display: flex;
+    background-color: rgba(255, 115, 0, 0.1);
+    margin-top: 50px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#inflation .addinfo p {
+    font-size: .9rem;
+    color: #EC9152;
+}
+
+#inflation .addinfo p:last-child {
+    font-weight: bold;
+}

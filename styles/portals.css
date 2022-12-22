@@ -1,0 +1,72 @@
+#portals {
+    padding-top: 120px;
+}
+
+#portals .title-p {
+  margin-bottom: 15px;
+}
+
+#portals .box-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    cursor: pointer;
+}
+
+#portals .box-container p {
+    margin-top: 15px;
+}
+
+#portals .box {
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 70px 50px;
+}
+
+#portals .box-container .icon-container {
+    box-shadow: 0px 5px 5px 0px rgb(226, 226, 226);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#portals .icon {
+    font-size: 3rem;
+}
+
+
+
+
+#portals .addinfo {
+    display: flex;
+    align-items: center;
+    background-color: rgba(121, 121, 121, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+  
+  #portals .addinfo .icon-container {
+    background: white;
+    width: 30px;
+    border-radius: 30px;
+    text-align: center;
+  }
+  
+  #portals .addinfo .icon {
+    color: var(--cyan);
+    font-size: 2rem;
+  }
+  
+  #portals .addinfo div {
+    margin-left: 20px;
+  }
+  
+  #portals .addinfo p {
+    line-height: 1.75;
+  }
+  
+  #portals .addinfo p:last-child {
+    font-weight: bold;
+  }

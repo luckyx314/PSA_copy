@@ -1,0 +1,96 @@
+#population {
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  padding-top: 150px;
+  gap: 50px;
+}
+
+#population h3 {
+  padding-bottom: 15px;
+}
+
+
+#population-icons {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 25px;
+}
+
+#population-icons .icon {
+  font-size: 3rem;
+}
+
+#population-icons .male {
+  color: #3965E3;
+}
+
+#population-icons .female {
+  color: #45CDE0;
+}
+
+
+#population .bottom-info {
+  display: flex;
+}
+
+#population .bottom-info p {
+  font-size: .9rem;
+}
+
+#population .circle {
+  background: #3965E3;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+
+#population .bottom-info .info:nth-child(2) .circle {
+  background: #45CDE0;
+}
+
+
+#population .bottom-info .info {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-right: 50px;
+}
+
+#population .bottom-info .info div:nth-child(2) {
+  padding-left: 10px;
+}
+
+#population .addinfo {
+  display: flex;
+  align-items: center;
+  background-color: rgba(121, 121, 121, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#population .addinfo .icon-container {
+  background: white;
+  width: 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+#population .addinfo .icon {
+  color: var(--cyan);
+  font-size: 2rem;
+}
+
+#population .addinfo div {
+  margin-left: 20px;
+}
+
+#population .addinfo p {
+  line-height: 1.75;
+}
+
+#population .addinfo p:last-child {
+  font-weight: bold;
+}

@@ -1,0 +1,49 @@
+section#overview {
+  padding-top: 120px;
+}
+
+section#overview h1 {
+  font-size: 2.25rem;
+}
+
+section .map-wrapper {
+  display: grid;
+  grid-template-columns: 1fr .25fr;
+  align-items: center;
+  padding-top: 50px;
+}
+
+section .map svg {
+  fill: #DCE2F8;
+}
+
+section .map svg path {
+  stroke: grey;
+}
+
+section .map svg path.Philippines {
+  fill: #195AFD;
+}
+
+section .map svg path.Philippines:hover {
+  fill: red;
+}
+
+section .map svg path:hover {
+  fill: #195AFD;
+  cursor: pointer;
+}
+
+.clock-container {
+  background: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#clock {
+  font-size: 3rem;
+}
