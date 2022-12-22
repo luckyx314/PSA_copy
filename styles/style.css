@@ -104,11 +104,16 @@ footer {
 
 footer {
     padding-top: 150px;
+    padding-left: 100px !important;
     background-color: #092540;
     position: relative;
     z-index: 100;
     display: flex;
     justify-content: space-between;
+}
+
+footer ul {
+    margin-left: 15px;
 }
 
 footer .title {

@@ -1,0 +1,50 @@
+section#faq {
+    padding: 150px 100px 20px 50px !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    height: auto !important;
+}
+
+section#faq h1 {
+    font-size: 2.5rem;
+}
+
+section#faq select {
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+}
+
+section#faq select option {
+    padding: 10px !important;
+}
+
+
+section#faq div.qna {
+    border-bottom: 1px solid #64788C;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+section#faq div.qna button {
+    margin-top: 15px;
+    padding: 5px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+section#faq div.qna p {
+    margin: 5px 0;
+}
+
+section#faq .dropdown {
+    position: fixed;
+}
