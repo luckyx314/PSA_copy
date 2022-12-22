@@ -67,7 +67,6 @@ nav#sidebar ul li {
 nav#sidebar ul li p,
 nav#sidebar ul li .icon {
     color: #c8d5e2;
-    /* color: #64788C; */
 }
 
 nav#sidebar ul li .icon {
@@ -104,7 +103,37 @@ footer {
 }
 
 footer {
+    padding-top: 150px;
     background-color: #092540;
     position: relative;
     z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .title {
+    color: white;
+    font-weight: bold;
+}
+
+footer .icon-container {
+    display: flex;
+    margin: 10px 0;
+}
+
+footer .icon-container .icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+footer button {
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--blue);
+    font-weight: bold;
+    margin-top: 20px;
 }

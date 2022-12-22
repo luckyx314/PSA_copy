@@ -1,6 +1,6 @@
 const userIcon = () => {
     const i = document.createElement("i");
-    i.setAttribute("class", "fa-solid fa-user icon");
+    i.setAttribute("class", "fa-solid fa-user icon fade");
     return i;
 };
 
@@ -45,6 +45,7 @@ const highlightSidebarNav = () => {
         });
     });
 };
+
 
 // population section
 generatePopulationIcons();
