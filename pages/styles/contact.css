@@ -1,0 +1,78 @@
+section#contact {
+    padding: 0;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    height: auto;
+}
+
+section#contact div.title-container {
+    height: 300px;
+    width: 100%;
+    border-radius: 0 0 50px 50px;
+    background-color: #092540;
+    padding: 120px 50px 0 50px;
+}
+
+section#contact div.title-container h1,
+section#contact div.title-container p {
+    color: white;
+}
+
+#contact div.dropdowns-container {
+    /* background-color: white; */
+    margin: -90px 50px 0 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+
+#contact div.dropdowns-container ul:first-child,
+#contact div.dropdowns-container ul:nth-child(2) {
+    border-radius: 20px;
+}
+
+#contact div.dropdowns-container ul:first-child li {
+    padding: 20px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact div.dropdowns-container ul:first-child li:first-child {
+    border-radius: 20px 20px 0 0;
+}
+#contact div.dropdowns-container ul:first-child li:last-child {
+    border-radius: 0px 0px 20px 20px;
+}
+
+#contact div.dropdowns-container ul:first-child li:hover {
+    background-color: #184670;
+    color: white;
+}
+
+
+#contact div.dropdowns-container ul:nth-child(2) {
+    padding: 20px;
+    height: 50%;
+    background-color: white;
+}
+
+#contact div.dropdowns-container ul:nth-child(2) li {
+    padding: 10px;
+    font-size: 1.15rem;
+}
+
+#contact div.dropdowns-container ul:nth-child(2) li .icon {
+    margin-right: 10px;
+}
+
+#contact div.dropdowns-container ul:nth-child(2) li span {
+    font-weight: bold;
+}
+
+#contact div.dropdowns-container ul:nth-child(2) li a.email {
+    text-decoration: underline;
+}

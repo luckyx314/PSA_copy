@@ -13,6 +13,10 @@ section .map-wrapper {
   padding-top: 50px;
 }
 
+section#overview #clock {
+  font-size: 2rem;
+}
+
 section .map svg {
   fill: #DCE2F8;
 }
