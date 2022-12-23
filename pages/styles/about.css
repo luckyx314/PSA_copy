@@ -1,0 +1,130 @@
+#about1 {
+    background-color: #092540;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    padding: 0 200px;
+}
+
+#about2,
+#about3,
+#about4 {
+    background-color: #092540;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    padding: 0 200px;
+    padding-top: 200px;
+}
+
+#about1 h1, #about1 p {
+    color: white;
+}
+
+#about1 p {
+    margin: 10px 0;
+}
+
+#about1 button {
+    padding: 10px 30px;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#about1 .img-container {
+    text-align: right;
+}
+
+#about2 .vision,
+#about3 .mission {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+
+}
+
+#about2 .vision .title p,
+#about2 .vision .title h1 {
+    color: white;
+}
+
+#about2 .vision .icon-container,
+#about3 .mission .icon-container {
+    text-align: right;
+}
+
+#about2 .vision .icon {
+    font-size: 20rem;
+    color: #FEB72B;
+}
+
+#about3 .mission .icon {
+    font-size: 20rem;
+    color: #FC3771; 
+}
+
+#about2 .btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#about2 .btn-container .icon {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+#about3 {
+    background-color: #EDF2FB;
+}
+
+#about4 {
+    padding-top: 350px;
+}
+
+#about4 h1 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+#about4 .box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+#about4 .box {
+    background-color: rgba(0,0,0,.1);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#about4 .box h3 {
+    margin-bottom: 5px;
+}
+
+#about4 .box:nth-child(1) {
+    transition-delay: 200ms;
+}
+#about4 .box:nth-child(2) {
+    transition-delay: 250ms;
+}
+#about4 .box:nth-child(3) {
+    transition-delay: 300ms;
+}
+
+/* #about-main footer {
+    background-color: #EDF2FB;
+}
+
+#about-main footer .title {
+    color: #64788C;
+} */

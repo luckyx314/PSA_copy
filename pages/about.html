@@ -3,14 +3,19 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/styles/style.css" />
+        <link rel="stylesheet" href="/pages/styles/about.css" />
+        <link rel="stylesheet" href="/styles/animation.css" />
+
         <title></title>
         <script
             src="https://kit.fontawesome.com/cf2b91a915.js"
             crossorigin="anonymous"
         ></script>
+        <script defer src="/code/index.js"></script>
+        <script defer src="/code/animation.js"></script>
     </head>
     <body>
-        <main>
+        <main id="about-main">
             <nav id="header-nav">
                 <a href="/index.html"
                     ><img src="/images/prod/psalogo.png" alt="" class="psalogo"
@@ -21,7 +26,104 @@
                     <li><a href="/pages/faq.html">FAQs</a></li>
                 </ul>
             </nav>
-            <section id="about"></section>
+            <section id="about1">
+                <div class="fade">
+                    <h1>About Us</h1>
+                    <p>
+                        The Philippine Statistics Authority (PSA) logo signifies
+                        its commitment to provide timely and quality statistics
+                        necessary for decision making in all aspects of Filipino
+                        life. It reflects the PSA's vision of solid, responsive,
+                        and world-class authority on quality statistics and
+                        civil registration; and its mission to deliver relevant,
+                        reliable statistics and civil registration services for
+                        equitable development towards mproved quality of life
+                        for all.
+                    </p>
+                    <a href="#about2"><button>Read More</button></a>
+                </div>
+                <div class="img-container">
+                    <img src="/images/prod/psalogs.png" alt="" />
+                </div>
+            </section>
+            <section id="about2">
+                <div class="vision fade">
+                    <div class="title">
+                        <h1>Vision</h1>
+                        <p>
+                            Solid, responsive, and world-class authority on
+                            quality statistics, efficient civil registration,
+                            and inclusive identification system.
+                        </p>
+                    </div>
+                    <div class="icon-container">
+                        <i class="fa-solid fa-eye icon"></i>
+                    </div>
+                </div>
+                <!-- <div class="btn-container">
+                    <i class="fa-solid fa-circle-arrow-left icon"></i>
+                    <i class="fa-solid fa-circle-arrow-right icon"></i>
+                </div> -->
+            </section>
+            <section id="about3">
+                <div class="mission fade">
+                    <div class="title">
+                        <h1>Mission</h1>
+                        <p>
+                            Deliver relevant and reliable statistics, efficient
+                            civil registration services and inclusive
+                            identification system for equitable development
+                            towards improved quality of life for all.
+                        </p>
+                    </div>
+                    <div class="icon-container">
+                        <i class="fa-solid fa-mountain-sun icon"></i>
+                    </div>
+                </div>
+                <!-- <div class="btn-container">
+                    <i class="fa-solid fa-circle-arrow-left icon"></i>
+                    <i class="fa-solid fa-circle-arrow-right icon"></i>
+                </div> -->
+            </section>
+            <section id="about4">
+                <h1 class="fade">Core Values</h1>
+                <div class="box-container">
+                    <div class="box hidden">
+                        <h3>Integrity</h3>
+                        <p>
+                            We observe the highest standards of professional
+                            behavior by exemplifying impartiality and
+                            independence in everything we do. We stand firm
+                            against undue influence - ensuring that integrity
+                            cuts across not only in the statistics we deliver,
+                            but more importantly, in our people.
+                        </p>
+                    </div>
+                    <div class="box hidden">
+                        <h3>Transparency</h3>
+                        <p>
+                            We ensure transparency in all interactions and
+                            transactions to build and nurture trust inside and
+                            outside the PSA. We strive for clear communication,
+                            shared knowledge, and informed, all-inclusive
+                            decisions for cultivating mutual respect at all
+                            levels of the organization.
+                        </p>
+                    </div>
+                    <div class="box hidden">
+                        <h3>Adaptability</h3>
+                        <p>
+                            We respond to change with a positive attitude and a
+                            willingness to learn new ways to deliver our
+                            mandate. We stay on top of technological
+                            advancements and never give up in the face of
+                            challenges, instead finding them as opportunities to
+                            discover and gain insights to further our services
+                            to the public.
+                        </p>
+                    </div>
+                </div>
+            </section>
             <footer>
                 <div>
                     <div>
@@ -37,7 +139,9 @@
                         </div>
                         <p>Civil Registration concerns:</p>
                         <p>Telephone: (02) 8461-0500 local 702/703</p>
-                        <button>Contact Us</button>
+                        <a href="/pages/contact.html"
+                            ><button>Contact Us</button></a
+                        >
                     </div>
                 </div>
                 <ul>
